@@ -1,0 +1,591 @@
+@font-face {
+  font-family: RobotoLight;
+  src: url(fonts/Roboto/Roboto-Light.ttf);
+	}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: RobotoLight;
+  color: black;
+  }
+
+body {
+  width: 1200px;
+  margin: auto;
+  }
+
+main {
+  padding-bottom: 50px;
+  }
+
+.main-header {
+  width: 1200px;
+  margin-top: 5px;
+
+  }
+
+.main-logo,
+.main-header p,
+.main-header h1 {
+  display: block;
+  float: left;
+  }
+
+.main-logo img{
+  border-radius: 56px;
+  }
+
+.main-header p {
+  width: 230px;
+  padding-top: 20px;
+  text-align: right;
+  font-size: 18px;
+  }
+
+ .main-header h1 {
+  width: 735px;
+  padding-top: 30px;
+  padding-left: 120px;
+  font-size: 24px;
+  font-weight: lighter;
+  }
+.main-header h1 span {
+  padding-left: 60px;
+  }
+
+.zag {
+  clear: both;
+  border-bottom: #9a9a98 1px solid;
+  }
+
+.zag1 {
+  clear: both;
+  margin-bottom: 20px;
+  }
+
+.main-navigation {
+  padding-left: 620px;
+  text-align: right;
+  margin-top: 20px;
+  }
+
+.main-navigation li {
+  margin-left: 60px;
+  display: block;
+  float: left;
+  }
+
+.main-navigation a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  }
+
+ .main-navigation .current {
+  border-bottom: #9a9a98 1px solid;
+  }
+
+.slogan {
+	position: relative;
+}
+
+.slogan p {
+  font-size: 48px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: lighter;
+  position: absolute;
+  left: 250px;
+  top: 150px;
+  }
+
+.features {
+  overflow: hidden;
+  padding-top: 20px;
+  }
+
+.features h2,
+.laser-list h2,
+.injection-list h2,
+.equipment h2,
+.staff h2,
+.equipment h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  margin: 30px 0 30px 0;
+  letter-spacing: 5px;
+  }
+
+.laser-list h2 {
+  margin-top: 80px;
+  }
+
+.features .features-item {
+  font-size: 26px;
+  font-weight: lighter;
+  list-style: none;
+  padding-bottom: 15px;
+  }
+
+.features .features-list1,
+.features .features-list2 {
+  width: 500px;
+  display: block;
+  float: left;
+  padding-left: 30px;
+  }
+
+.features .features-list2 {
+  float: right;
+  }
+
+.slogan .cta,
+.laser-list .cta,
+.injection-list .cta,
+.stock .cta  {
+  display: inline-block;
+  letter-spacing: 5px;
+  width: 550px;
+  height: 55px;
+  background: #00ae00;
+  font-size: 36px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  margin: 30px 0 0 350px;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0);
+  }
+
+.slogan .cta:hover,
+.laser-list .cta:hover,
+.injection-list .cta:hover,
+.stock .cta:hover  {
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
+  }
+
+.introduction-text {
+  padding: 10px;
+}
+
+.introduction-text,
+.attractive-pictures-item1,
+.attractive-pictures-item2,
+.laser-item li,
+.contraindications-picture,
+.injection-list .text-left,
+.injection-list .item-right,
+.injection-list .item-left,
+.injection-list .text-right,
+.price img {
+  border: #9a9a98 1px dotted;
+  border-radius: 10px;
+}
+
+.injection-list .text-left p,
+.injection-list .text-right p,
+.injection-list .text-right ul {
+  margin-bottom: 20px;
+}
+
+.injection-list li {
+  list-style: none;
+}
+
+.laser-list ul,
+.gallary-list li,
+.contact-info ul {
+  list-style: none;
+}
+
+.attractive-pictures-item1,
+.attractive-pictures-item2 {
+  width: 540px;
+  height: 370px;
+  margin: 40px 0;
+  float: left;
+  }
+
+.attractive-pictures-item2 {
+  float: right;
+  }
+
+.laser-item h3,
+.injection-list h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: lighter;
+  margin: 40px 0 10px 0;
+  clear: both;
+  }
+
+.laser-item li {
+  width: 330px;
+  float: left;
+  margin-top: 30px;
+  margin-right: 72px;
+  font-size: 18px;
+  text-align: center;
+  padding: 0 10px;
+  }
+
+.laser-item .option-item1 {
+  padding-top: 65px;
+  height: 85px;
+  }
+
+.laser-item .option-item2 {
+  padding-top: 55px;
+  height: 95px;
+  }
+
+.laser-item .option-item3 {
+  padding-top: 40px;
+  height: 110px;
+  }
+
+.laser-item .option-item4 {
+  padding-top: 28px;
+  height: 122px;
+  }
+
+.laser-item .option-item5 {
+  padding-top: 18px;
+  height: 132px;
+  }
+
+.laser-item .option-item-none{
+  visibility: hidden;
+  }
+
+.laser-item .option-item-right {
+  float: right;
+  margin-right: 0;
+  }
+
+.contraindications-picture {
+  width: 540px;
+  height: 420px;
+  margin: 20px 0;
+  margin-left: 330px;
+  }
+
+.injection-list .text-left,
+.injection-list .item-left,
+.injection-list .item-right,
+.injection-list .text-right {
+  width: 540px;
+  height: 370px;
+  float: left;
+  margin-top: 30px;
+  }
+
+.injection-list .item-right,
+.injection-list .text-right {
+  float: right;
+  }
+
+.injection-list .text-left,
+.injection-list .text-right {
+  width: 520px;
+  height: 350px;
+  padding: 10px;
+  }
+
+.equipment ul {
+  list-style: none;
+}
+
+.staff  {
+  height: 420px;
+  border: #9a9a98 1px dotted;
+  }
+
+.staff .doctor,
+.staff .education {
+  float: left;
+}
+
+.staff ul {
+  list-style: none;
+  }
+
+.staff li {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  }
+
+.staff .doctor {
+  width: 250px;
+  margin: 30px 0 0 50px;
+}
+
+.staff .education {
+  width: 500px;
+  margin: 30px 0 0 50px;
+  }
+
+.staff p {
+  margin-bottom: 20px;
+  }
+
+.staff .photo {
+  float: right;
+  margin-right: 50px;
+  text-align: center;
+ }
+
+.gallery-stock {
+  width: 1200px;
+  height: 600px;
+  margin: 80px 0 20px 0;
+}
+
+.sliderA {
+  width: 900px;
+  height: 600px;
+  border: 1px solid #888;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  }
+
+.sliderA > input {
+   display: none;
+ }
+
+.sliderA > input + label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgba(90, 90, 90, 0.8);
+  border: 2px solid rgba(190, 190, 190, 0.8);
+  cursor: pointer;
+  z-index: 100;
+  position: relative;
+  margin-right: 4px;
+  top: 90%;
+  transition: background 0.8s ease-out 0s;
+  }
+
+.sliderA > input + label:hover {
+  background: rgba(250, 250, 250, 0.8);
+  }
+
+.sliderA > input:checked + label {
+  background: rgba(220, 220, 220, 0.8);
+  }
+
+.sliderA > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  }
+
+.sliderA > input + label + div + label {
+        display: none;
+    }
+
+.sliderA > input:checked + label + div + label {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 50;
+  }
+
+.sliderA > div {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+  }
+
+.sliderA > input:checked + label + div {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+  }
+
+.sliderA > div > p {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000;
+  color: black;
+  font-size: 32px;
+  font-weight: lighter;
+  }
+
+
+.sliderB {
+  width: 800px;
+  height: 560px;
+  border: 1px solid #888;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  }
+
+.sliderB > input {
+   display: none;
+ }
+
+.sliderB > input + label {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: rgba(90, 90, 90, 0.8);
+  border: 2px solid rgba(190, 190, 190, 0.8);
+  cursor: pointer;
+  z-index: 100;
+  position: relative;
+  margin-right: 4px;
+  top: 90%;
+  transition: background 0.8s ease-out 0s;
+  }
+
+.sliderB > input + label:hover {
+  background: rgba(250, 250, 250, 0.8);
+  }
+
+.sliderB > input:checked + label {
+  background: rgba(220, 220, 220, 0.8);
+  }
+
+.sliderB > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  }
+
+.sliderB > input + label + div + label {
+        display: none;
+    }
+
+.sliderB > input:checked + label + div + label {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 50;
+  }
+
+.sliderB > div {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+  }
+
+.sliderB > input:checked + label + div {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+  }
+
+.sliderB > div > p {
+  text-align: center;
+  text-shadow: 1px 1px 2px #000;
+  color: black;
+  font-size: 32px;
+  font-weight: lighter;
+  padding: 20px 0;
+  }
+
+.sliderB div img {
+  margin-left: 80px;
+  }
+
+.price-list {
+  min-height: 300px;
+  padding: 15px;
+ }
+
+ .price-list__inect {
+   min-height: 200px;
+   padding: 15px;
+   margin-top: 30px;
+  }
+
+.price__epil-img {
+  float: left;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+.price-list p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stock {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td {
+  border-bottom: black 1px dotted;
+}
+
+.price-item {
+  text-align: right;
+}
+
+.map {
+  float: left;
+  margin-top: 30px;
+}
+
+.map img{
+  float: left;
+}
+
+.price__inect-img {
+  float: right;
+  margin-right: 50px;
+}
+
+.contact-info li {
+  width: 400px;
+  float: left;
+  margin-top: 40px;
+  font-size: 22px;
+  margin-left: 50px;
+  }
+
+.contact-info .cta {
+  float: left;
+  letter-spacing: 5px;
+  width: 500px;
+  height: 55px;
+  background: #00ae00;
+  font-size: 36px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 35px;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  margin-left: 50px;
+  }
